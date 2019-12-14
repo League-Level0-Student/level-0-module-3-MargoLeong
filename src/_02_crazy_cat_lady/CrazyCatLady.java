@@ -18,11 +18,11 @@ if(numberOfCats >3) {
 	JOptionPane.showMessageDialog(null, "you are a CrAzY cat lady");}
 
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
-if(numberOfCats <3 && numberOfCats>0) {
-	playVideo("https://www.youtube.com/watch?v=VB4CCHHYOqY");
+if (numberOfCats <3 && numberOfCats>0) {
+	playVideo( "https://www.youtube.com/watch?v=VB4CCHHYOqY");
 }
 		// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
-if(numberOfCats<0) {
+else if(numberOfCats<=0) {
 	playVideo("https://www.youtube.com/watch?v=oj_yLBltPE8");
 }
 	}
