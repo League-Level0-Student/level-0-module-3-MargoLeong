@@ -2,7 +2,7 @@
 //    Level 0
 package _99_extra;
 
-c
+
 
 public class BananaQuiz
 {
