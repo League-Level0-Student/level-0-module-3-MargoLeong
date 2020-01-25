@@ -21,7 +21,7 @@ public class AreYouHappy {
 			}
 
 			if (happiness.equalsIgnoreCase("yes")) {
-
+JOptionPane.showMessageDialog(null, "change something");
 			}
 		}
 

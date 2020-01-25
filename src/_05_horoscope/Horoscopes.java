@@ -7,12 +7,12 @@ public class Horoscopes {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String star = JOptionPane.showInputDialog("what is your horoscope? make sure you spell it correctly and if it isnt a horoscope you wont get an answer!");
+		String star = JOptionPane.showInputDialog("what is your horoscope?");
 		{
 			if (star.equalsIgnoreCase("aries")) {
 				JOptionPane.showMessageDialog(null, "your star sign is a goat looking thingy");
 			}
-			
+
 		}
 		if (star.equalsIgnoreCase("taurus")) {
 			JOptionPane.showMessageDialog(null, "your star sign is a bull looking thingy");
@@ -66,22 +66,21 @@ public class Horoscopes {
 		if (star.equalsIgnoreCase("Sagittarius")) {
 			JOptionPane.showMessageDialog(null, "your star sign is a person with a bow and arrow");
 
-		}if (star.equalsIgnoreCase("capricorn")) {
+		}
+		if (star.equalsIgnoreCase("capricorn")) {
 			JOptionPane.showMessageDialog(null, "you star sign is an animal with  horns");
 
-		}if (star.equalsIgnoreCase("aquarius")) {
+		}
+		if (star.equalsIgnoreCase("aquarius")) {
 			JOptionPane.showMessageDialog(null, "your star sign is some guy on his knees holding seaweed or something");
 
-		}if (star.equalsIgnoreCase("pisces")) {
+		} else if (star.equalsIgnoreCase("pisces")) {
 			JOptionPane.showMessageDialog(null, "your star sign is two fish swimming");
 
 		}
-				}
+	}
 
+	{
 
-
-		{
-
-		}}
-	
-
+	}
+}

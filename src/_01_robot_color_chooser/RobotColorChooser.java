@@ -20,18 +20,30 @@ public class RobotColorChooser {
 		
 		String hello = JOptionPane.showInputDialog(null,"choose a color: red, orange, yellow..");
 		//5. Use an if/else statement to set the pen color that the user requested
-if(hello.equalsIgnoreCase("red") ) {
+for(int i=0;i<100;i++) {
+		r.penDown();
+r.setPenWidth(10);r.setSpeed(200);
+		if(hello.equalsIgnoreCase("red") ) {
 	r.setPenColor(255,45,0);
+	r.move(200);
 }else if(hello.equalsIgnoreCase("orange")) {
 	r.setPenColor(255,151,0);
+	r.move(200);
 }else if(hello.equalsIgnoreCase("yellow")) {
 	r.setPenColor(255,246,0);
+	r.move(200);
 }else if(hello.equalsIgnoreCase("green")) {
 	r.setPenColor(77,255,0);
+	r.move(200);
 }else if(hello.equalsIgnoreCase("blue")) {
-	r.setPenColor(139,255,0);
+	r.setPenColor(0,0,255);
+	r.move(200);
 }else if(hello.equalsIgnoreCase("purple")) {
 	r.setPenColor(108,0,255);
+	r.move(200);
+}else {
+	JOptionPane.showMessageDialog(null,"that color is not acceptable");
+}
 }
 	// 6. If the user doesn’t enter anything, choose a random color
 
@@ -39,10 +51,7 @@ if(hello.equalsIgnoreCase("red") ) {
 	// colors & drawing them
 
 	// 4. Set the pen width to 10
-r.setPenWidth(10);
+
 	// 2. Make the robot draw a shape (this will take more than one line of code)
-r.setSpeed(60);
-r.penDown();
-r.turn(90);
-r.move(200);
+
 	}}

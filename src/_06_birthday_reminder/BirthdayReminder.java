@@ -18,9 +18,9 @@ public class BirthdayReminder {
 		// 2. Find out which birthday the user wants and and store their response in a
 		// variable
 		String name = JOptionPane.showInputDialog(null,
-				"whose birthday do you want to know, mom, dad, or mine?" + "(say mine, mom ,dad. nothing else)");
+				"whose birthday do you want to know, mom, dad, or mine?" + "(say mine, mom ,dad)");
 		// 3. Print out what the user typed
-		JOptionPane.showMessageDialog(null, name + "? okey there birthday is.....");
+		JOptionPane.showMessageDialog(null, name + "? okey their birthday is....." );
 		// 4. if user asked for "mom" print mom's birthday
 		if (name.equalsIgnoreCase("mom")) {
 			JOptionPane.showMessageDialog(null, momsBirthday);
@@ -28,15 +28,14 @@ public class BirthdayReminder {
 		if (name.equalsIgnoreCase("dad")) {
 			JOptionPane.showMessageDialog(null, dadsBirthday);
 		}
-			 if (name.equalsIgnoreCase("yours")) {
-					JOptionPane.showMessageDialog(null, myBirthday);
-				}
-				// 5. if user asked for "dad" print dad's birthday
+		if (name.equalsIgnoreCase("yours")) {
+			JOptionPane.showMessageDialog(null, myBirthday);
+		}
+		// 5. if user asked for "dad" print dad's birthday
 
-				// 6. if user asked for your name print myBirthday
+		// 6. if user asked for your name print myBirthday
 
-				// 7. otherwise print "Sorry, i don't remember that person's birthday!"
+		// 7. otherwise print "Sorry, i don't remember that person's birthday!"
 
-			}
 	}
-
+}
